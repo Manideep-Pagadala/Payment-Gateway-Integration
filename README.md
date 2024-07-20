@@ -9,9 +9,9 @@ This project involves creating a payment processing system that integrates a mer
 
 ## Tech Stack
 
-`Java 17`,
+`Java 17`
 
- `SpringBoot 3.3.1`, 
+ `SpringBoot 3.3.1` 
 
  `Angular 18.0.1`, 
 
