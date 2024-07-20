@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: PaymentGateWay
+
+#MYSQL credentials
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://172.17.0.2:3306/miniproject
+
+  sql:
+    init:
+      mode: always
+      platform: mysql
+      schema-locations: classpath:schema.sql
+ 
+queries:
+  makePayment: "INSERT INTO payment_data (payment_ref_id, merchant_id, amount, currency_type, order_id, status, date_of_payment) VALUES (?, ?, ?, ?, ?, ?, ?)"
+  checkStatus: "SELECT payment_ref_id, merchant_id, amount, currency_type, order_id, status, date_of_payment FROM payment_data WHERE payment_ref_id = ?"
+
+logging:
+  file:
+    name: payment-gateway_log

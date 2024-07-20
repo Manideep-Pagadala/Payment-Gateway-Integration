@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "url.check-status",
+    "type": "java.lang.String",
+    "description": "A description for 'url.check-status'"
+  },
+  {
+    "name": "url.makePayment",
+    "type": "java.lang.String",
+    "description": "A description for 'url.makePayment'"
+  }
+]}

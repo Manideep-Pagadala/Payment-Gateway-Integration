@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: MerchantApp
+server:
+  port: 8081
+
+url:
+  checkStatus: "http://localhost:8080/payment_status/"
+  makePayment: "http://localhost:8080/payment"
+
+logging:
+ file:
+   name: merchant-app_log

@@ -1,0 +1,14 @@
+{
+	"properties": [
+		{
+			"name": "queries.make-payment",
+			"type": "java.lang.String",
+			"description": "A description for 'queries.make-payment'"
+		},
+		{
+			"name": "queries.checkStatus",
+			"type": "java.lang.String",
+			"description": "A description for 'queries.checkStatus'"
+		}
+	]
+}
