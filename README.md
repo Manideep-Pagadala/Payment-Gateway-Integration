@@ -13,16 +13,17 @@ This project involves creating a payment processing system that integrates a mer
 
  `SpringBoot 3.3.1` 
 
- `Angular 18.0.1`, 
+ `Angular 18.0.1`
 
- `MySql 9.0.0`,
+ `MySql 9.0.0`
 
- `node v20.15.1`, 
+ `node v20.15.1` 
 
- `Docker 27.0.3`,
+ `Docker 27.0.3`
 
+ `STS IDE 4 or Eclipse J2EE 2024-06-R`
 
-
+ 
 ## Software Installations
 
 ### `Java Setup`
